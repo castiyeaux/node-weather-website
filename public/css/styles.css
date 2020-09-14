@@ -1,0 +1,43 @@
+body {
+    font-family: 'IBM Plex Sans', Arial, Helvetica, sans-serif;
+    background: none;
+    color: #333333;
+    max-width: 650px;
+    margin: 0px auto;
+    padding: 0px 16px;
+}
+
+header {
+    margin-bottom: 16px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    background-color: midnightblue;
+    padding: 22px;
+    color: white;
+    border-top: solid 5px gray;
+}
+
+h1 {
+    color: grey;
+}
+
+#about-pic {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 250px;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 150%;
+    border: solid 5px black;
+    padding: 10px;
+    margin: 0px auto;
+}
